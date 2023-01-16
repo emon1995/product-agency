@@ -262,3 +262,46 @@ html {
   margin-top: 2rem;
   color: var(--main-text-color);
 }
+
+/* BUSINESS STYLES */
+.business {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  gap: 4rem;
+  max-width: 90rem;
+  width: 100%;
+  margin: auto;
+  margin-top: 6rem;
+}
+
+.business-details {
+  padding: 0 0 0 1.75rem;
+}
+
+.business-details-title {
+  margin-bottom: 2rem;
+}
+
+.business-items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+
+.business-item {
+  border: 1px solid #6c57db;
+  border-radius: 32px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.business-item-title {
+  font-weight: 600;
+  font-size: 28px;
+  margin: 1.75rem 0 1rem;
+}
+
+.business-item-subtitle {
+}
