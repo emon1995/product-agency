@@ -45,6 +45,26 @@ html {
   border: none;
 }
 
+.btn-secondary {
+  background: linear-gradient(
+    98.99deg,
+    rgba(217, 217, 217, 0.4) -25.81%,
+    rgba(217, 217, 217, 0.2) 130.94%
+  );
+  /* shadow-btn */
+
+  box-shadow: 0px 100px 80px rgba(49, 49, 49, 0.02),
+    0px 64px 46px rgba(49, 49, 49, 0.04),
+    0px 38.52px 25.48px rgba(49, 49, 49, 0.0607),
+    0px 20px 13px rgba(49, 49, 49, 0.05),
+    0px 8.15px 6.52px rgba(49, 49, 49, 0.0393),
+    0px 1.85px 3.15px rgba(49, 49, 49, 0.0241);
+  border-radius: 2rem;
+  color: #ffffff;
+  padding: 1.06rem 3rem;
+  border: none;
+}
+
 .title {
   font-weight: 900;
   font-size: 3rem;
@@ -355,4 +375,43 @@ html {
 
 .experience-info-item-subtitle {
   margin-top: 1.25rem;
+}
+
+/* GROW STYLES */
+.grow {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  background: var(--secondary-color);
+  border-radius: 8px;
+  max-width: 90rem;
+  width: 100%;
+  margin: auto;
+  margin-top: 6rem;
+  /* padding: 4.5rem; */
+}
+
+.grow-details {
+  padding: 4.5rem 12rem;
+}
+
+.grow-details-title {
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--white-text-color);
+  margin-bottom: 1rem;
+}
+
+.grow-details-subtitle {
+  color: var(--white-text-color);
+  /* display: flex;
+  align-items: center; */
+  /* gap: 0.5rem; */
+}
+
+.img-text {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
