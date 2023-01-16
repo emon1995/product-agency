@@ -17,6 +17,7 @@
 
 body {
   font-family: "Urbanist", sans-serif;
+  color: var(--main-text-color);
 }
 
 * {
@@ -47,6 +48,10 @@ html {
 .title {
   font-weight: 900;
   font-size: 3rem;
+}
+
+.title-color {
+  color: var(--primary-color);
 }
 
 .opacity-text {
@@ -213,5 +218,47 @@ html {
   display: flex;
   align-items: center;
   gap: 0.25rem;
+  color: var(--main-text-color);
+}
+
+/* WHAT WE CAN DO STYLES */
+.what-we-do {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+  gap: 3rem;
+  margin: auto;
+  margin-top: 6.25rem;
+  max-width: 90rem;
+  width: 100%;
+}
+
+.do-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.do-item-title {
+  margin: 2rem 0 0.75rem;
+}
+
+.do-item-subtitle {
+}
+
+.agency-items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+  gap: 4rem;
+}
+
+.agency-items-details-title {
+  color: var(--main-text-color);
+}
+
+.agency-items-details-subtitle {
+  margin-top: 2rem;
   color: var(--main-text-color);
 }
