@@ -1,0 +1,129 @@
+/* FONT */
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap");
+
+/* UTILITIES */
+:root {
+  --primary-color: #6c57db;
+  --secondary-color: linear-gradient(
+      270.04deg,
+      #6c57db 0.05%,
+      rgba(12, 25, 31, 0.79) 97.84%
+    ),
+    #00b8d9;
+  --bg-color: #f4f9ff;
+  --main-text-color: #213d39;
+  --white-text-color: #ffffff;
+}
+
+body {
+  font-family: "Urbanist", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+.btn-primary {
+  background: linear-gradient(
+      270.04deg,
+      #6c57db 0.05%,
+      rgba(12, 25, 31, 0.79) 97.84%
+    ),
+    #00b8d9;
+  box-shadow: 0px 2px 8px rgba(117, 131, 142, 0.04),
+    0px 16px 24px rgba(52, 60, 68, 0.12);
+  border-radius: 2rem;
+  color: #ffffff;
+  margin: 1.06rem 3rem;
+}
+
+/* NAVBAR STYLES */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 90rem;
+  width: 100%;
+  margin: auto;
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.navbar-search {
+  display: flex;
+  align-items: center;
+  max-width: 100vh;
+  width: 100%;
+}
+
+.navbar-search input {
+  padding: 0.75rem 1.5rem;
+  background: #fbfbfb;
+  color: #949ca9;
+  border-radius: 0.5rem;
+  width: 100%;
+  border: none;
+  margin-right: -5.62rem;
+}
+
+.navbar-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navbar-item {
+  cursor: pointer;
+}
+
+.item-j {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 1.125rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  background-color: var(--primary-color);
+  color: var(--white-text-color);
+}
+
+.nav-menu {
+  margin-bottom: 2rem;
+  max-width: 90rem;
+  width: 100%;
+  margin: auto;
+}
+
+.nav-menu-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.hi-item {
+  color: var(--main-text-color);
+  border-bottom: 1px solid var(--main-text-color);
+}
+
+.opa-item {
+  opacity: 0.5;
+  color: var(--main-text-color);
+}
+
+.nav-menu-item {
+  padding: 1rem;
+}
+
+.nav-menu-item a {
+  text-decoration: none;
+}
