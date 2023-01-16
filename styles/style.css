@@ -40,7 +40,19 @@ html {
     0px 16px 24px rgba(52, 60, 68, 0.12);
   border-radius: 2rem;
   color: #ffffff;
-  margin: 1.06rem 3rem;
+  padding: 1.06rem 3rem;
+  border: none;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+.opacity-text {
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--main-text-color);
 }
 
 /* NAVBAR STYLES */
@@ -48,6 +60,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 2rem;
   max-width: 90rem;
   width: 100%;
   margin: auto;
@@ -58,7 +71,8 @@ html {
 .navbar-search {
   display: flex;
   align-items: center;
-  max-width: 100vh;
+  justify-content: center;
+  /* max-width: 60vh; */
   width: 100%;
 }
 
@@ -67,9 +81,14 @@ html {
   background: #fbfbfb;
   color: #949ca9;
   border-radius: 0.5rem;
+  max-width: 573px;
   width: 100%;
   border: none;
-  margin-right: -5.62rem;
+  /* margin: auto; */
+}
+
+#search {
+  margin-left: -5.62rem;
 }
 
 .navbar-items {
@@ -108,22 +127,91 @@ html {
   justify-content: center;
   align-items: center;
   list-style: none;
+  padding: 1rem;
 }
 
-.hi-item {
+.hi-item a {
   color: var(--main-text-color);
   border-bottom: 1px solid var(--main-text-color);
 }
 
-.opa-item {
+.opa-item a {
   opacity: 0.5;
   color: var(--main-text-color);
 }
 
 .nav-menu-item {
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 
 .nav-menu-item a {
   text-decoration: none;
+  padding: 1rem;
+}
+
+/* BANNER SECTION */
+.banner {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1.5rem;
+  max-width: 90rem;
+  width: 100%;
+  margin: auto;
+  background: #f4f9ff;
+  backdrop-filter: blur(80px);
+  border-radius: 2rem;
+  margin-top: 2rem;
+}
+
+.banner-details {
+  padding: 1.5rem 0 1.5rem 3rem;
+}
+
+.banner-title {
+  color: var(--main-text-color);
+}
+
+.color-title {
+  background: var(--secondary-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.banner-subtitle {
+  margin: 1rem 0;
+}
+
+.banner-items {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.banner-item {
+  text-align: center;
+}
+
+.banner-item-title {
+  font-size: 1.75rem;
+  color: var(--main-text-color);
+}
+
+.banner-item-subtitle {
+  color: var(--main-text-color);
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.btn-sign {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: var(--main-text-color);
 }
