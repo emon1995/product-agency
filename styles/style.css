@@ -241,6 +241,11 @@ html {
   color: var(--main-text-color);
 }
 
+.btn-sign a {
+  text-decoration: none;
+  color: var(--main-text-color);
+}
+
 /* WHAT WE CAN DO STYLES */
 .what-we-do {
   display: grid;
@@ -762,6 +767,12 @@ html {
   }
   .brand img {
     width: 75%;
+  }
+  /* FREQUENTLY  */
+  .frequently-house {
+    /* top: 43.125rem;
+    grid-template-columns: repeat(1, 1fr); */
+    width: 90%;
   }
   /* FOOTER */
   .footer {
