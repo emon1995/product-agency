@@ -152,6 +152,11 @@ html {
   display: flex;
   align-items: center;
   gap: 1rem;
+  background: #ffffff;
+  border: 1px solid #e8e9ea;
+  border-radius: 32px;
+  padding: 0.7rem;
+  font-size: 0.77rem;
 }
 
 .already a {
@@ -161,4 +166,36 @@ html {
 
 .signup-img img {
   width: 100%;
+}
+
+/* MOBILE RESPONSIVE     */
+@media only screen and (max-width: 576px) {
+  .signup {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 1rem;
+    gap: 0;
+  }
+  .signup-img {
+    display: none;
+  }
+  .password {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .sign-with-google h4 {
+    display: none;
+  }
+}
+
+/* TABLET RESPONSIVE */
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+  .signup {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 1rem;
+    gap: 0;
+  }
+
+  .signup-img {
+    display: none;
+  }
 }
