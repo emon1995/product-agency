@@ -478,6 +478,7 @@ html {
 
 .frequently-title {
   color: var(--white-text-color);
+  padding: 1.5rem;
 }
 
 .frequently-ask {
@@ -514,7 +515,7 @@ html {
   align-items: center;
   justify-items: end;
   position: absolute;
-  top: 33.125rem;
+  top: 35.125rem;
 }
 
 .frequently-house-details-title {
@@ -544,4 +545,37 @@ html {
   position: absolute;
   right: 1rem;
   top: 0.75rem;
+}
+
+/* FOOTER STYLES */
+.footer {
+  /* display: grid;
+  grid-template-columns: repeat(1, 1fr); */
+  max-width: 90rem;
+  width: 100%;
+  margin: auto;
+  margin-top: 12rem;
+}
+
+.footer-details {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 3rem;
+  margin-bottom: 1rem;
+  border-top: 1px solid var(--bg-color);
+  padding-top: 1rem;
+}
+
+.footer-studio-title {
+  margin-bottom: 1.75rem;
+}
+
+.footer-studio-subtitle {
+  margin-bottom: 1rem;
+}
+
+.copy {
+  border-top: 1px solid var(--bg-color);
+  text-align: center;
+  padding: 1rem;
 }
