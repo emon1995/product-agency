@@ -389,6 +389,9 @@ html {
   width: 100%;
   margin: auto;
   margin-top: 6rem;
+  background-image: url("../images/Mask\ Group.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   /* padding: 4.5rem; */
 }
 
@@ -414,4 +417,37 @@ html {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+}
+
+/* CLIENT STYLES */
+.client {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  align-items: center;
+  justify-items: center;
+  max-width: 90rem;
+  width: 100%;
+  margin: auto;
+  margin-top: 6rem;
+}
+
+.client-details-subtitle {
+  margin-top: 1rem;
+}
+
+.client-info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.client-info-title {
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.client-info-subtitle {
+  font-size: 1.25rem;
 }
